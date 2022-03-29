@@ -25,8 +25,8 @@ Declare dependency via Maven:
 or Gradle:
 
 ~~~groovy
-compile 'com.dji:dji-sdk:4.16.1'
-provided 'com.dji:dji-sdk-provided:4.16.1'
+implementation('com.dji:dji-sdk:4.16')
+compileOnly('com.dji:dji-sdk-provided:4.16')
 ~~~
 
 For further detail on how to integrate the DJI Android SDK into your Android Studio project, please check the [Integrate SDK into Application](http://developer.dji.com/mobile-sdk/documentation/application-development-workflow/workflow-integrate.html#import-maven-dependency) tutorial.
